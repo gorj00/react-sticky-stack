@@ -1,7 +1,7 @@
 {
-  "name": "react-sticky-stack",
+  "name": "react-sticky-stack-fixed",
   "version": "0.0.1",
-  "description": "A Sticky Stack component for React.js",
+  "description": "A Sticky Stack component for React.js with a fix for traverseParentPath(...) error",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",

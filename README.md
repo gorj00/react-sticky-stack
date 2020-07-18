@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.org/YPlan/react-sticky-stack.svg?branch=master)](https://travis-ci.org/YPlan/react-sticky-stack)
 
-React Sticky Stack
+React Sticky Stack - traverseParentPath error FIX
 ==================
+
+This a forked repo from [YPlan](https://github.com/YPlan/react-sticky-stack) with a fix proposed by **lucas-issa** in this [PR](https://github.com/YPlan/react-sticky-stack/pull/3) and implemented in this npm.
 
 A Sticky Stack component for [React.js](http://facebook.github.io/react/)
 
@@ -9,7 +11,7 @@ Installation
 ------------
 
 ```sh
-$ npm install react-sticky-stack --save
+$ npm install react-sticky-stack-fixed --save
 ```
 
 Demo
@@ -23,7 +25,7 @@ Usage
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {StickyStackContext, StickyStackItem} from 'react-sticky-stack';
+import {StickyStackContext, StickyStackItem} from 'react-sticky-stack-fixed';
 
 const App = React.createClass({
   render() {
